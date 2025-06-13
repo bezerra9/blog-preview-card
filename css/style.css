@@ -84,3 +84,19 @@ body {
   font-weight: 800;
   margin-bottom: 24px;
 }
+
+.tittle:hover {
+  color: var(--yellow);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+@media (max-width: 415px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .decoration {
+    max-width: 100%;
+  }
+}
